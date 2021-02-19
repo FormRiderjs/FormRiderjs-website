@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="45.387852mm"
+   height="45.88636mm"
+   viewBox="0 0 45.387852 45.88636"
+   version="1.1"
+   id="svg924"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="brand.svg"
+   inkscape:export-filename="C:\Me\Amigos\formRider-design\brand.png"
+   inkscape:export-xdpi="973.03351"
+   inkscape:export-ydpi="973.03351">
+  <defs
+     id="defs918">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2689"
+       x="-1.9289519e-05"
+       width="1.0000386"
+       y="-1.9111309e-05"
+       height="1.0000381">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.7349065e-05"
+         id="feGaussianBlur2691" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1645">
+      <circle
+         style="fill:#10512f;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="circle1647"
+         cx="19.738054"
+         cy="8.6119089"
+         r="0.80721265"
+         transform="rotate(42.961827)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-63.671283"
+     inkscape:cy="-40.382074"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1667"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="4"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata921">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-85.57681,-64.341202)">
+    <g
+       id="g1667"
+       transform="matrix(-0.98985898,14.223801,-14.223801,-0.98985898,166.95349,-249.45707)"
+       style="display:inline;filter:url(#filter2689)">
+      <g
+         id="g3997">
+        <rect
+           style="display:inline;fill:#ffcb26;fill-opacity:1;stroke:none;stroke-width:0.00837217;paint-order:stroke markers fill"
+           id="rect983-0-3"
+           width="2.796279"
+           height="2.5605116"
+           x="14.37192"
+           y="16.775913"
+           transform="rotate(-42.961827)"
+           ry="0.69810933" />
+        <circle
+           style="fill:#ff512f;fill-opacity:1;stroke-width:0.0141732;paint-order:stroke markers fill"
+           id="path877-3"
+           cx="24.467409"
+           cy="3.1227584"
+           r="0.80721265" />
+        <path
+           style="display:inline;fill:#4568dc;fill-opacity:1;stroke:none;stroke-width:0.00759805;paint-order:stroke markers fill"
+           id="rect983-0"
+           width="2.5377226"
+           height="2.3237555"
+           x="7.2935534"
+           y="17.805809"
+           transform="rotate(-42.961827,-4.6096456,-8.7535271)"
+           clip-path="url(#clipPath1645)"
+           sodipodi:type="rect"
+           d="m 7.2935534,17.805809 h 2.5377225 v 2.323756 H 7.2935534 Z" />
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.0165491;paint-order:stroke markers fill"
+           id="path1660"
+           cx="24.617626"
+           cy="2.932595"
+           r="0.40265778" />
+      </g>
+    </g>
+  </g>
+</svg>

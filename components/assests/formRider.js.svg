@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_5"
+   enable-background="new 0 0 64 64"
+   height="39.003906"
+   viewBox="0 0 29.196778 4.8754883"
+   width="233.57422"
+   version="1.1"
+   sodipodi:docname="formRider.js.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="C:\Me\Amigos\formRider-design\formRiderLogo.png"
+   inkscape:export-xdpi="822.00854"
+   inkscape:export-ydpi="822.00854">
+  <metadata
+     id="metadata869">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs867">
+    <rect
+       x="30.169573"
+       y="9.1484098"
+       width="31.952168"
+       height="15.437942"
+       id="rect2602" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1645">
+      <circle
+         style="fill:#10512f;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="circle1647"
+         cx="19.738054"
+         cy="8.6119089"
+         r="0.80721265"
+         transform="rotate(42.961827)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1839"
+       x="-6.7196556e-06"
+       width="1.0000134"
+       y="-2.7496673e-05"
+       height="1.000055">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7517868e-05"
+         id="feGaussianBlur1841" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2689"
+       x="-1.9289518e-05"
+       width="1.0000386"
+       y="-1.9111309e-05"
+       height="1.0000382">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.7349065e-05"
+         id="feGaussianBlur2691" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1645-0">
+      <circle
+         style="fill:#10512f;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="circle1647-1"
+         cx="19.738054"
+         cy="8.6119089"
+         r="0.80721265"
+         transform="rotate(42.961827)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1645-4">
+      <circle
+         style="fill:#10512f;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="circle1647-6"
+         cx="19.738054"
+         cy="8.6119089"
+         r="0.80721265"
+         transform="rotate(42.961827)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview865"
+     showgrid="false"
+     inkscape:zoom="1.3139787"
+     inkscape:cx="117.11101"
+     inkscape:cy="73.832333"
+     inkscape:window-x="4"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3943"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:5px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';letter-spacing:0.1925px;stroke-width:0.125"
+     x="28.65645"
+     y="-4.8578086"
+     id="text867"><tspan
+       sodipodi:role="line"
+       id="tspan865"
+       x="28.65645"
+       y="-4.8578086"
+       style="stroke-width:0.125" /></text>
+  <g
+     id="g1620-2"
+     transform="translate(4.7293541,-5.4891506)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="graph"
+     style="display:inline">
+    <g
+       id="g3997"
+       style="display:inline;filter:url(#filter2689)"
+       transform="matrix(-0.09247083,1.3287617,-1.3287617,-0.09247083,31.090466,-29.063252)">
+      <rect
+         style="display:inline;fill:#ffcb26;fill-opacity:1;stroke:none;stroke-width:0.00837217;paint-order:stroke markers fill"
+         id="rect983-0-3-0"
+         width="2.796279"
+         height="2.5605116"
+         x="14.37192"
+         y="16.775913"
+         transform="rotate(-42.961827)"
+         ry="0.69810933" />
+      <circle
+         style="fill:#ff512f;fill-opacity:1;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="path877-3-8"
+         cx="24.467409"
+         cy="3.1227584"
+         r="0.80721265" />
+      <path
+         style="display:inline;fill:#4568dc;fill-opacity:1;stroke:none;stroke-width:0.00759805;paint-order:stroke markers fill"
+         id="rect983-0-4"
+         width="2.5377226"
+         height="2.3237555"
+         x="7.2935534"
+         y="17.805809"
+         transform="rotate(-42.961827,-4.6096456,-8.7535271)"
+         clip-path="url(#clipPath1645-4)"
+         sodipodi:type="rect"
+         d="m 7.2935534,17.805809 h 2.5377225 v 2.323756 H 7.2935534 Z" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.0165491;paint-order:stroke markers fill"
+         id="path1660-3"
+         cx="24.617626"
+         cy="2.932595"
+         r="0.40265778" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="wind"
+     style="display:none;filter:url(#filter1839)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       id="text2600"
+       style="font-size:5px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';letter-spacing:0.1925px;white-space:pre;shape-inside:url(#rect2602);" />
+    <g
+       id="g3943"
+       style="display:inline">
+      <circle
+         style="display:inline;fill:#4568dc;fill-opacity:1;stroke-width:0.0128006;paint-order:stroke markers fill"
+         id="path2608-5"
+         cx="20.927723"
+         cy="1.9344418"
+         r="0.62272143" />
+      <circle
+         style="display:inline;fill:#4568dc;fill-opacity:1;stroke-width:0.0130599;paint-order:stroke markers fill"
+         id="path2608-5-1"
+         cx="13.407298"
+         cy="1.2570654"
+         r="0.63533413" />
+      <circle
+         style="display:inline;fill:#4568dc;fill-opacity:1;stroke-width:0.0165168;paint-order:stroke markers fill"
+         id="path2608-5-1-0"
+         cx="17.926847"
+         cy="2.4552717"
+         r="0.80350345" />
+      <g
+         id="g4034">
+        <text
+           xml:space="preserve"
+           style="font-size:5px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';letter-spacing:0px;word-spacing:0px;display:inline;fill:#1d1d1d;fill-opacity:1;stroke-width:0.125"
+           x="-0.40039062"
+           y="3.7011719"
+           id="text873"
+           inkscape:export-xdpi="822.00861"
+           inkscape:export-ydpi="822.00861"><tspan
+             sodipodi:role="line"
+             id="tspan871"
+             x="-0.40039062"
+             y="3.7011719"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#4568dc;fill-opacity:1;stroke-width:0.125">FormRider js</tspan></text>
+      </g>
+      <circle
+         style="fill:#ff512f;fill-opacity:1;stroke-width:0.014951;paint-order:stroke markers fill"
+         id="path2608"
+         cx="3.7417665"
+         cy="2.4468637"
+         r="0.72733217" />
+    </g>
+  </g>
+</svg>
