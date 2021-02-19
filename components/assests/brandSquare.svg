@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="67.846733mm"
+   height="67.846733mm"
+   viewBox="0 0 67.846734 67.846733"
+   version="1.1"
+   id="svg854"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="brandSquare.svg"
+   inkscape:export-filename="C:\Me\Amigos\formRider-design\brandSquare.png"
+   inkscape:export-xdpi="973"
+   inkscape:export-ydpi="973">
+  <defs
+     id="defs848">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1645">
+      <circle
+         style="fill:#10512f;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="circle1647"
+         cx="19.738054"
+         cy="8.6119089"
+         r="0.80721265"
+         transform="rotate(42.961827)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="90.738325"
+     inkscape:cy="139.00583"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1267"
+     inkscape:window-height="1040"
+     inkscape:window-x="246"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata851">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-128.98793,-67.960098)">
+    <rect
+       style="fill:#4568dc;fill-opacity:1;stroke-width:0.0292663;paint-order:stroke markers fill"
+       id="rect1450"
+       width="67.846733"
+       height="67.846733"
+       x="128.98793"
+       y="67.960098"
+       ry="0" />
+    <g
+       id="g3997"
+       style="display:inline;filter:url(#filter2689)"
+       transform="matrix(-0.98985898,14.223801,-14.223801,-0.98985898,221.21252,-234.68788)">
+      <rect
+         style="display:inline;fill:#ffcb26;fill-opacity:1;stroke:none;stroke-width:0.00837217;paint-order:stroke markers fill"
+         id="rect983-0-3"
+         width="2.796279"
+         height="2.5605116"
+         x="14.37192"
+         y="16.775913"
+         transform="rotate(-42.961827)"
+         ry="0.69810933" />
+      <circle
+         style="fill:#ff512f;fill-opacity:1;stroke-width:0.0141732;paint-order:stroke markers fill"
+         id="path877-3"
+         cx="24.467409"
+         cy="3.1227584"
+         r="0.80721265" />
+      <path
+         style="display:inline;fill:#4568dc;fill-opacity:1;stroke:none;stroke-width:0.00759805;paint-order:stroke markers fill"
+         id="rect983-0"
+         width="2.5377226"
+         height="2.3237555"
+         x="7.2935534"
+         y="17.805809"
+         transform="rotate(-42.961827,-4.6096456,-8.7535271)"
+         clip-path="url(#clipPath1645)"
+         sodipodi:type="rect"
+         d="m 7.2935534,17.805809 h 2.5377225 v 2.323756 H 7.2935534 Z" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.0165491;paint-order:stroke markers fill"
+         id="path1660"
+         cx="24.617626"
+         cy="2.932595"
+         r="0.40265778" />
+    </g>
+  </g>
+</svg>
