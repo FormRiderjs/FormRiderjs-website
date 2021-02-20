@@ -1,0 +1,51 @@
+@import "../styles/colors.scss";
+@import "../styles/fontStyles.scss";
+// TOP BANNER ======================================================================================
+.topBannerContainer {
+    background-color: $blueViolet;
+    height: 200px;
+}
+
+.topBanner {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.topBannerButtonsContainer {
+    margin-top: 20px;
+}
+
+.topBannerBrand {
+    width: 128px;
+}
+
+.topBannerText {
+    color: $whiteBright;
+    font-size: $fontSizeBig;
+    font-weight: bold;
+}
+
+.topBannerButton {
+    display: inline-block;
+    font-size: $fontSizeMedium;
+    padding: 4px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    &.topBannerButton:first-child {
+        background-color: $green;
+        margin-right: 30px;
+    }
+    &.topBannerButton:last-child {
+        background-color: $whiteBright;
+    }
+}
+
+// why using ======================================================================================
