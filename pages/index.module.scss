@@ -3,7 +3,7 @@
 // TOP BANNER ======================================================================================
 .topBannerContainer {
     background-color: $blueViolet;
-    height: 200px;
+    height: 260px;
 }
 
 .topBanner {
@@ -49,3 +49,19 @@
 }
 
 // why using ======================================================================================
+.whyUsingTitle {
+    text-align: center;
+    font-size: $fontSizeMedium;
+    font-weight: bold;
+    color: $blackBright;
+    margin-top: 40px;
+}
+
+.whyRowContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    &.whyRowContainer:last-child {
+        margin-top: 40px;
+    }
+}
