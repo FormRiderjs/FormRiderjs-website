@@ -1,5 +1,6 @@
 import LayoutHomePage from "../components/layoutHomePage/LayoutHomePage";
 import SingleWhy from "../components/singleWhy/SingleWhy";
+import Example1Form from "../components/example1Form/Example1Form";
 import styles from "./index.module.scss";
 
 export default function Home() {
@@ -81,13 +82,53 @@ export default function Home() {
         {/* EXAMPLE 1 ============================================================ */}
         <div className={styles.example1Container}>
           <div className={styles.example1LeftContainer}>
-            <div>Don't go into boring coding</div>
-            <div>Form Rider has many validation functionalities, starting from basic validators such as "required" till "regex" and conditional validators --LINK HERE--</div>
+            <div className={styles.example1LeftContainerTitle}>
+              Don't go into boring coding.
+            </div>
+            <div>
+              Form Rider has many validation functionalities, starting from
+              basic validators such as "required" till "regex" and conditional
+              validators --LINK HERE--
+            </div>
+            <div className={styles.example1Form}>
+              <Example1Form />
+            </div>
           </div>
           <div className={styles.example1RightContainer}>
-            <textarea readOnly>
-              azdazd
-            </textarea>
+            {/*             <textarea
+              readOnly
+              className={styles.example1TextArea}
+            ></textarea> */}
+
+            <div className={styles.example1TextArea}>
+              <code>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock, a
+                Latin professor at Hampden-Sydney College in Virginia, looked up
+                one of the more obscure Latin words, consectetur, from a Lorem
+                Ipsum passage, and going through the cites of the word in
+                classical literature, discovered the undoubtable source. Lorem
+                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                written in 45 BC. This book is a treatise on the theory of
+                ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
+                in section 1.10.32.Contrary to popular belief, Lorem Ipsum is
+                not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.
+                Richard McClintock, a Latin professor at Hampden-Sydney College
+                in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the
+                cites of the word in classical literature, discovered the
+                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
+                and Evil) by Cicero, written in 45 BC. This book is a treatise
+                on the theory of ethics, very popular during the Renaissance.
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                comes from a line in section 1.10.32.
+              </code>
+            </div>
           </div>
         </div>
       </LayoutHomePage>
