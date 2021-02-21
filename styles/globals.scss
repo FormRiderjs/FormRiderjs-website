@@ -2,6 +2,7 @@
 html,
 body {
     padding: 0;
+    padding-top: 20px;
     margin: 0;
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: $whiteNormal;
@@ -28,4 +29,14 @@ button {
     &:focus {
         text-decoration: none;
     }
+}
+
+input {
+    font-family: inherit;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    font-family: inherit;
 }

@@ -1,0 +1,116 @@
+@import "../styles/colors.scss";
+@import "../styles/fontStyles.scss";
+// TOP BANNER ======================================================================================
+.topBannerContainer {
+    background-color: $blueViolet;
+    height: 260px;
+}
+
+.topBanner {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.topBannerButtonsContainer {
+    margin-top: 20px;
+}
+
+.topBannerBrand {
+    width: 128px;
+}
+
+.topBannerText {
+    color: $whiteBright;
+    font-size: $fontSizeBig;
+    font-weight: bold;
+}
+
+.topBannerButton {
+    display: inline-block;
+    font-size: $fontSizeMedium;
+    padding: 4px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    &.topBannerButton:first-child {
+        background-color: $green;
+        color: $whiteBright;
+        margin-right: 30px;
+    }
+    &.topBannerButton:last-child {
+        background-color: $whiteBright;
+    }
+}
+
+// why using ======================================================================================
+.whyUsingTitle {
+    text-align: center;
+    font-size: $fontSizeMedium;
+    font-weight: bold;
+    color: $blackBright;
+    margin-top: 40px;
+}
+
+.whyRowContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    &.whyRowContainer:last-child {
+        margin-top: 40px;
+    }
+}
+
+// Example 1 ======================================================================================
+.example1Container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.example1LeftContainer {
+    width: 450px;
+}
+
+.example1LeftContainerTitle {
+    display: inline-block;
+    padding: 2px 30px 4px 0;
+    margin-bottom: 20px;
+    color: $whiteBright;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #50CF96, #4568DC);
+}
+
+.example1Form {
+    margin-top: 20px;
+}
+
+.example1RightContainer {
+    width: 500px;
+}
+
+.example1TextArea {
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: $blackDark;
+    font-weight: inherit;
+    font-size: $fontSizeNormal;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: auto;
+    color: $whiteBright;
+}

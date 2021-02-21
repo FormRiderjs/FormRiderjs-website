@@ -1,0 +1,25 @@
+@import "../../styles/colors.scss";
+@import "../../styles/fontStyles.scss";
+.singleWhyContainer {
+    color: $blackBright;
+    width: 260px;
+}
+
+.reasonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason {
+    font-size: $fontSizeNormal;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.reasonBar {
+    flex: auto;
+    border-bottom: solid 4px;
+}
+
+.explanation {}
