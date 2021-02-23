@@ -95,38 +95,45 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.example1RightContainer}>
-            {/*             <textarea
-              readOnly
-              className={styles.example1TextArea}
-            ></textarea> */}
-
             <div className={styles.example1TextArea}>
-              <code>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                written in 45 BC. This book is a treatise on the theory of
-                ethics, very popular during the Renaissance. The first line of
-                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
-                in section 1.10.32.Contrary to popular belief, Lorem Ipsum is
-                not simply random text. It has roots in a piece of classical
-                Latin literature from 45 BC, making it over 2000 years old.
-                Richard McClintock, a Latin professor at Hampden-Sydney College
-                in Virginia, looked up one of the more obscure Latin words,
-                consectetur, from a Lorem Ipsum passage, and going through the
-                cites of the word in classical literature, discovered the
-                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-                1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
-                and Evil) by Cicero, written in 45 BC. This book is a treatise
-                on the theory of ethics, very popular during the Renaissance.
-                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                comes from a line in section 1.10.32.
+            <code className={styles.ee}>
+            <span className={styles.ponctuation}>{"{"}</span><br/>
+
+            <span/>  <span className={styles.propertyKey}>"notifications"</span>: <span className={styles.ponctuation}>[{"{"}</span><br/>
+            <span/>    <span className={styles.propertyKey}>"notificationCode"</span>: <span className={styles.propertyValueNotText}>1</span>,<br/>
+            <span/>    <span className={styles.propertyKey}>"text"</span>: <span className={styles.propertyValueText}>"Cannot subscribe, error with some inputs"</span>,<br/>
+            <span/>    <span className={styles.propertyKey}>"textColor"</span>: <span className={styles.propertyValueText}>"#ffffff"</span>,<br/>
+            <span/>    <span className={styles.propertyKey}>"backgroundColor"</span>: <span className={styles.propertyValueText}>"#E56C6C"</span><br/>
+            <span/>  <span className={styles.ponctuation}>{"}"}</span>,<br/>
+            <span/>  <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>    <span className={styles.propertyKey}>"notificationCode"</span>: <span className={styles.propertyValueNotText}>2</span>,<br/>
+            <span/>    <span className={styles.propertyKey}>"text"</span>: <span className={styles.propertyValueText}>"Thank you for subscribing !"</span>,<br/>
+            <span/>    <span className={styles.propertyKey}>"textColor"</span>: <span className={styles.propertyValueText}>"#ffffff"</span>,<br/>
+            <span/>    <span className={styles.propertyKey}>"backgroundColor"</span>: <span className={styles.propertyValueText}>"#50CF96"</span><br/>
+            <span/>  <span className={styles.ponctuation}>{"}]"}</span><br/>
+            <span/>  <span className={styles.propertyKey}>"elementsToApplyValidationOn"</span>: <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>    <span className={styles.propertyKey}>"signupTest"</span>: <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>      <span className={styles.propertyKey}>"notificationCode"</span>: <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>        <span className={styles.propertyKey}>"validated"</span>: <span className={styles.propertyValueNotText}>2</span>,<br/>
+            <span/>        <span className={styles.propertyKey}>"notValidated"</span>: <span className={styles.propertyValueNotText}>1</span><br/>
+            <span/>      <span className={styles.ponctuation}>{"}"}</span>,<br/>
+            <span/>      <span className={styles.propertyKey}>"resetFormUponSubmit"</span>: <span className={styles.propertyValueNotText}>false</span>,<br/>
+            <span/>      <span className={styles.propertyKey}>"inputNameToValidate"</span>: <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>        <span className={styles.propertyKey}>"userName"</span>: <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>          <span className={styles.propertyKey}>"required"</span>: [<span className={styles.propertyValueNotText}>true</span>, <span className={styles.propertyValueText}>"A user name is required"</span>]<br/>
+            <span/>        <span className={styles.ponctuation}>{"}"}</span>,<br/>
+            <span/>        <span className={styles.propertyKey}>"password"</span>: <span className={styles.ponctuation}>{"{"}</span><br/>
+            <span/>          <span className={styles.propertyKey}>"required"</span>: [<span className={styles.propertyValueNotText}>true</span>, <span className={styles.propertyValueText}>"A password is required"</span>],<br/>
+            <span/>          <span className={styles.propertyKey}>"minLength"</span>: [<span className={styles.propertyValueNotText}>6</span>, <span className={styles.propertyValueText}>"password should have at least 6 characters"</span>],<br/>
+            <span/>          <span className={styles.propertyKey}>"containNumber"</span>: [[<span className={styles.propertyValueNotText}>1</span>, <span className={styles.propertyValueNotText}>true</span>], <span className={styles.propertyValueText}>"password should have at least 1 number"</span>],<br/>
+            <span/>          <span className={styles.propertyKey}>"containSpecialCharacters"</span>: [[<span className={styles.propertyValueNotText}>1</span>, <span className={styles.propertyValueNotText}>true</span>], <span className={styles.propertyValueText}>"password should contain at least one special character"</span>],<br/>
+            <span/>          <span className={styles.propertyKey}>"containWhiteSpace"</span>: [[<span className={styles.propertyValueNotText}>false</span>, <span className={styles.propertyValueNotText}>false</span>], <span className={styles.propertyValueText}>"password should not contain any white spaces"</span>],<br/>
+            <span/>          <span className={styles.propertyKey}>"containCapitalLetters"</span>: [[<span className={styles.propertyValueNotText}>1</span>, <span className={styles.propertyValueNotText}>true</span>], <span className={styles.propertyValueText}>"password should contain at least one capital letter"</span>]<br/>
+            <span/>        <span className={styles.ponctuation}>{"}"}</span><br/>
+            <span/>      <span className={styles.ponctuation}>{"}"}</span><br/>
+            <span/>    <span className={styles.ponctuation}>{"}"}</span><br/>
+            <span/>  <span className={styles.ponctuation}>{"}"}</span><br/>
+            <span/><span className={styles.ponctuation}>{"}"}</span><br/>
               </code>
             </div>
           </div>

@@ -1,0 +1,43 @@
+@import "../../styles/colors.scss";
+@import "../../styles/fontStyles.scss";
+.fundingBannerSupContainer {
+    width: 100%;
+    position: fixed;
+    top: 54px;
+    left: 0;
+    text-align: center;
+    background-color: $green;
+    color: $whiteBright;
+    font-weight: bold;
+}
+
+.fundingBannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 800px;
+    height: 35px;
+}
+
+.fundingButtonsContainer {
+     :first-child {
+        display: inline-block;
+        margin-right: 20px;
+        background-color: $yellowDark;
+    }
+     :last-child {
+        display: inline-block;
+        background-color: $red;
+    }
+}
+
+.fundingButton {
+    padding: 1px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,11 +1,13 @@
 @import "./colors.scss";
 html,
 body {
-    padding: 0;
     padding-top: 20px;
     margin: 0;
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: $whiteNormal;
+    //These combined with the footer will keep it at the bottom of any page
+    min-height: 100vh;
+    position: relative;
 }
 
 a {
@@ -39,4 +41,8 @@ input {
 
 textarea {
     font-family: inherit;
+}
+
+.theMotherOfAllContainers {
+    padding-bottom: 200px;
 }
