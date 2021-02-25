@@ -1,3 +1,4 @@
+import Link from "next/link"
 import LayoutHomePage from "../components/layoutHomePage/LayoutHomePage";
 import SingleWhy from "../components/singleWhy/SingleWhy";
 import Example1Form from "../components/example1Form/Example1Form";
@@ -24,7 +25,7 @@ export default function Home() {
             </div>
             <div>
               <div className={styles.topBannerButtonsContainer}>
-                <div className={styles.topBannerButton}>Get Started</div>
+                <Link href={"/docs"} ><div className={styles.topBannerButton}>Get Started</div></Link>
                 <div className={styles.topBannerButton}>Download</div>
               </div>
             </div>

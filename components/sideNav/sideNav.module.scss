@@ -1,0 +1,12 @@
+@import "../../styles/colors.scss";
+@import "../../styles/fontStyles.scss";
+.sideNavContainer {
+    position: fixed;
+    top: 54px;
+    left: 0;
+    height: 100%;
+    width: 270px;
+    padding: 20px 10px 0 20px;
+    background-color: $green;
+    overflow: auto;
+}

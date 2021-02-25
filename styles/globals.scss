@@ -1,8 +1,7 @@
 @import "./colors.scss";
 html,
 body {
-    padding-top: 20px;
-    margin: 0;
+    padding-top: 27px;
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: $whiteNormal;
     //These combined with the footer will keep it at the bottom of any page
@@ -17,6 +16,7 @@ a {
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 button {

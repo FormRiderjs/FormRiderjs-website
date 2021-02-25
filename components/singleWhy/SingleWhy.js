@@ -14,7 +14,7 @@ export default function SingleWhy(props) {
           className={styles.reasonBar}
         />
       </div>
-      <div className={styles.explanation}>{props.explanation}</div>
+      <div>{props.explanation}</div>
     </div>
   );
 }
