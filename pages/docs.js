@@ -10,6 +10,7 @@ function Docs() {
 
   const pathName = router.pathname;
 
+  //redirect to /docs/introduction, this is only done after the component is mounted using useEffect
   useEffect(() => {
     if(pathName === "/docs"){
       router.push('/docs/introduction');
