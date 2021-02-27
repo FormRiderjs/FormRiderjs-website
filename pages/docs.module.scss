@@ -1,0 +1,12 @@
+@import "../styles/colors.scss";
+@import "../styles/fontStyles.scss";
+.docsPageLayout {
+    margin-left: 270px;
+}
+
+.docsMainLayout {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    color: $blackBright;
+}

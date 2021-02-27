@@ -1,3 +1,4 @@
+import Link from "next/Link"
 import LayoutHomePage from "../components/layoutHomePage/LayoutHomePage";
 import SingleWhy from "../components/singleWhy/SingleWhy";
 import Example1Form from "../components/example1Form/Example1Form";
@@ -24,7 +25,7 @@ export default function Home() {
             </div>
             <div>
               <div className={styles.topBannerButtonsContainer}>
-                <div className={styles.topBannerButton}>Get Started</div>
+                <Link href={"/docs"} ><div className={styles.topBannerButton}>Get Started</div></Link>
                 <div className={styles.topBannerButton}>Download</div>
               </div>
             </div>
@@ -95,6 +96,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.example1RightContainer}>
+          <div className={styles.example1TextAreaContainer}>
             <div className={styles.example1TextArea}>
             <code className={styles.ee}>
             <span className={styles.ponctuation}>{"{"}</span><br/>
@@ -135,6 +137,7 @@ export default function Home() {
             <span/>  <span className={styles.ponctuation}>{"}"}</span><br/>
             <span/><span className={styles.ponctuation}>{"}"}</span><br/>
               </code>
+            </div>
             </div>
           </div>
         </div>
