@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/Link"
 import LayoutHomePage from "../components/layoutHomePage/LayoutHomePage";
 import SingleWhy from "../components/singleWhy/SingleWhy";
 import Example1Form from "../components/example1Form/Example1Form";

@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: $whiteNormal;
+    background-color: $whiteBright;
     border-bottom: 4px solid $yellowNormal;
 }
 
@@ -34,7 +34,7 @@
     display: inline-block;
     text-align: center;
     height: 100%;
-    background-color: $whiteBright;
+    background-color: $whiteExtra;
     margin-right: 20px;
     cursor: pointer;
     padding: 4px 8px 4px 8px;
@@ -57,7 +57,7 @@
 .version {
     display: inline-block;
     background-color: $blackNoraml;
-    color: $whiteNormal;
+    color: $whiteExtra;
     height: 100%;
     padding: 4px;
     border-radius: 5px;

@@ -6,7 +6,36 @@
     left: 0;
     height: 100%;
     width: 270px;
-    padding: 20px 10px 0 20px;
-    background-color: $whiteDark;
+    background-color: $whiteNormal;
     overflow: auto;
+}
+
+.sideNav {
+    padding: 20px 0;
+}
+
+.title {
+    padding: 10px 10px;
+    color: $blackNoraml;
+    // background-color: $whiteNormal;
+    transition: background-color 200ms;
+    -webkit-transition: background-color 200ms;
+    -moz-transition: background-color 200ms;
+    -ms-transition: background-color 200ms;
+    -o-transition: background-color 200ms;
+    cursor: pointer;
+    &:hover {
+        color: $blueBright;
+        background-color: $whiteBright;
+    }
+    &:current {
+        color: red;
+    }
+}
+
+.currentlyOpenedDoc {
+    background-color: $whiteBright;
+    color: $blueBright;
+    border-left: 5px solid $orange;
+    padding: 10px 5px;
 }

@@ -3,7 +3,7 @@
 slug : installation
 title : installation
 description : installation docs
-odrder: 2
+order: 2
 ---
 
 # h1
