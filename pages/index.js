@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div>
               <div className={styles.topBannerButtonsContainer}>
-                <Link href={"/docs"} ><div className={styles.topBannerButton}>Get Started</div></Link>
+                <Link href={"/docs/introduction"} ><div className={styles.topBannerButton}>Get Started</div></Link>
                 <div className={styles.topBannerButton}>Download</div>
               </div>
             </div>

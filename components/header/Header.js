@@ -15,7 +15,7 @@ export default function Header() {
           </Link>
         </div>
         <div className={styles.headerRightContainer}>
-          <Link href="/docs">
+          <Link href="/docs/introduction">
             <div className={styles.headerButton + " " + styles.docsLink}>
               Docs
             </div>
