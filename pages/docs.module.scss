@@ -1,12 +1,37 @@
 @import "../styles/colors.scss";
 @import "../styles/fontStyles.scss";
-.docsPageLayout {
-    margin-left: 270px;
+.pageLayout {
+    margin-left: 200px;
+    padding-top: 40px;
 }
 
-.docsMainLayout {
-    max-width: 1000px;
+.mainLayout {
+    max-width: 900px;
     margin: auto;
     padding-top: 20px;
     color: $blackBright;
+}
+
+.content {
+    margin-top: 30px;
+    a {
+        color: blue;
+    }
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.brand {
+    width: 25px;
+}
+
+.a {
+    color: red;
 }

@@ -1,5 +1,5 @@
 import Link from "next/Link"
-import LayoutHomePage from "../components/layoutHomePage/LayoutHomePage";
+import LayoutStandard from "../components/layoutStandard/LayoutStandard";
 import SingleWhy from "../components/singleWhy/SingleWhy";
 import Example1Form from "../components/example1Form/Example1Form";
 import styles from "./index.module.scss";
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </div>
 
-      <LayoutHomePage>
+      <LayoutStandard>
         {/* WHY USING ============================================================ */}
         <div className={styles.whyUsingTitle}>Why using FormRirder.js</div>
         <div className={styles.whyRowContainer}>
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </LayoutHomePage>
+      </LayoutStandard>
     </div>
   );
 }

@@ -18,23 +18,44 @@ function Docs({ data }) {
   const router = useRouter();
   const { slug } = router.query;
 
-  let wantedData;
+  let docsToBeShown;
   realData.forEach((element) => {
     if (element.data.slug === slug) {
-      wantedData = element;
+      docsToBeShown = element;
     }
   });
 
-  const docToBeShown = wantedData;
+  function createMarkup() {
+    return { __html: docsToBeShown.content };
+  }
+
+
+
+  console.log(createMarkup());
+  console.log(docsToBeShown.content);
+
+
 
   return (
     <div>
       <SideNav docs={docs} currentlyOpenedSlug={slug} />
-      <div className={styles.docsPageLayout}>
-        <div className={styles.docsMainLayout}>
-          <Reactmarkdown escapeHtml={false}>
-            {docToBeShown.content}
-          </Reactmarkdown>
+      <div className={styles.pageLayout}>
+        <div className={styles.mainLayout}>
+          <div className={styles.titleContainer}>
+            <img
+              alt={"form rider brand"}
+              src={"/brand.png"}
+              className={styles.brand}
+            />
+            <h1 className={styles.title}>{docsToBeShown.data.title}</h1>
+          </div>
+          <div className={styles.content}>
+            {/*             <Reactmarkdown escapeHtml={false}>
+              {docsToBeShown.content}
+            </Reactmarkdown> */}
+
+            <Reactmarkdown escapeHtml={false}/>
+          </div>
         </div>
       </div>
     </div>
