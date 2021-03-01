@@ -1,17 +1,14 @@
 ---
 
 slug : introduction
-title : introduction
+title : Introduction
 description : introduction docs
 order : 0
 
 ---
 
-# h1
-
-## h2
-
-### h3
 
 
-this is our introduction
+In a nutshell : FormRider is a HTML5 form validation plugin who has Two objectives, validating the form and notifying the user of the result by showing inputs errors or confirming the submit, for this, FormRider has also an embedded notification associated with the plugin. You can chose the wanted notification design separately from the notifications page and download it, you can also create your own notification.
+
+

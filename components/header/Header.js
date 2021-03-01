@@ -20,11 +20,18 @@ export default function Header() {
               Docs
             </div>
           </Link>
-          <Link href="/notifications">
+{/*           <Link href="/notifications">
             <div
               className={styles.headerButton + " " + styles.notificationsLink}
             >
               Embedded Notifications
+            </div>
+          </Link> */}
+          <Link href={"/install"}>
+          <div
+              className={styles.headerButton + " " + styles.installLink}
+            >
+              Install
             </div>
           </Link>
           <div className={styles.version}>v1.0.0-Beta</div>

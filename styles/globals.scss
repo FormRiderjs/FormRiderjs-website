@@ -5,8 +5,8 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: $whiteBright;
     //These combined with the footer will keep it at the bottom of any page
-    min-height: 100vh;
     position: relative;
+    min-height: 100vh;
 }
 
 a {
