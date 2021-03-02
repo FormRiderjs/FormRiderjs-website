@@ -98,7 +98,7 @@ export default function Home() {
           <div className={styles.example1RightContainer}>
           <div className={styles.example1TextAreaContainer}>
             <div className={styles.example1TextArea}>
-            <code className={styles.ee}>
+            <code className={styles.code}>
             <span className={styles.ponctuation}>{"{"}</span><br/>
 
             <span/>  <span className={styles.propertyKey}>"notifications"</span>: <span className={styles.ponctuation}>[{"{"}</span><br/>

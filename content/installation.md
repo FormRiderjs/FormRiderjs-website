@@ -1,16 +1,8 @@
 ---
-
-slug : installation
-title : installation
-description : installation docs
+slug: installation
+title: installation
+description: installation docs
 order: 2
 ---
 
-# h1
-
-## h2
-
-### h3
-
-
-this is onyl about installation
+Form Rider can be used in single page app environments and also other environments such as php web page. For this it has two download choices.

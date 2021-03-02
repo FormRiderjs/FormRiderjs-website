@@ -1,8 +1,9 @@
 import matter from "gray-matter";
-import Reactmarkdown from "react-markdown";
 import SideNav from "../../../components/sideNav/Sidenav";
+import Reactmarkdown from "react-markdown";
 import { useRouter } from "next/router";
 import styles from "../../../pages/docs.module.scss";
+import ReactMarkdown from "react-markdown";
 
 function Docs({ data }) {
   //extracting real data from data using gray-matter package
@@ -25,17 +26,6 @@ function Docs({ data }) {
     }
   });
 
-  function createMarkup() {
-    return { __html: docsToBeShown.content };
-  }
-
-
-
-  console.log(createMarkup());
-  console.log(docsToBeShown.content);
-
-
-
   return (
     <div>
       <SideNav docs={docs} currentlyOpenedSlug={slug} />
@@ -49,13 +39,14 @@ function Docs({ data }) {
             />
             <h1 className={styles.title}>{docsToBeShown.data.title}</h1>
           </div>
-          <div className={styles.content}>
-            {/*             <Reactmarkdown escapeHtml={false}>
-              {docsToBeShown.content}
-            </Reactmarkdown> */}
 
-            <Reactmarkdown escapeHtml={false}/>
-          </div>
+
+          <Reactmarkdown escapeHtml={false}>
+            {docsToBeShown.content}
+          </Reactmarkdown>
+{/*           <div
+            dangerouslySetInnerHTML={{ __html: docsToBeShown.content }}
+          /> */}
         </div>
       </div>
     </div>
