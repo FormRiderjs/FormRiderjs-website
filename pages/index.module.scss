@@ -109,17 +109,18 @@
 }
 
 .example1TextArea {
-    outline: none;
-    border: none;
-    resize: none;
     padding: 10px;
     width: 100%;
     height: 420px;
-    background-color: #041126;
-    font-weight: inherit;
     font-size: $fontSizeSmall;
     overflow: auto;
     color: $whiteBright;
+}
+
+.code {
+    white-space: pre;
+    background-color: #041126;
+    font-size: $fontSizeSmall;
 }
 
 .propertyKey {
@@ -136,8 +137,4 @@
 
 .ponctuation {
     color: $whiteDark
-}
-
-.code {
-    white-space: pre;
 }

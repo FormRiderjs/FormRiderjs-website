@@ -25,3 +25,12 @@
 .brand {
     width: 25px;
 }
+
+//=========================
+.content {
+    line-height: 1.6;
+    a {
+        color: $blueViolet;
+        text-decoration: underline;
+    }
+}

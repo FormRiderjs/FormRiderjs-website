@@ -3,7 +3,11 @@ import SideNav from "../../../components/sideNav/Sidenav";
 import Reactmarkdown from "react-markdown";
 import { useRouter } from "next/router";
 import styles from "../../../pages/docs.module.scss";
-import ReactMarkdown from "react-markdown";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { atomOneDark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+
+
+
 
 function Docs({ data }) {
   //extracting real data from data using gray-matter package
@@ -26,6 +30,17 @@ function Docs({ data }) {
     }
   });
 
+
+
+  const renderers = {
+    code: ({language, value}) => {
+      return <SyntaxHighlighter style={atomOneDark} language={language} children={value} />
+    }
+  }
+
+
+
+
   return (
     <div>
       <SideNav docs={docs} currentlyOpenedSlug={slug} />
@@ -40,13 +55,11 @@ function Docs({ data }) {
             <h1 className={styles.title}>{docsToBeShown.data.title}</h1>
           </div>
 
-
-          <Reactmarkdown escapeHtml={false}>
-            {docsToBeShown.content}
-          </Reactmarkdown>
-{/*           <div
-            dangerouslySetInnerHTML={{ __html: docsToBeShown.content }}
-          /> */}
+          <div className={styles.content}>
+            <Reactmarkdown escapeHtml={false} renderers={renderers}>
+              {docsToBeShown.content}
+            </Reactmarkdown>
+          </div>
         </div>
       </div>
     </div>
