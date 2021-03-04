@@ -45,7 +45,7 @@ function Docs({ data }) {
     <div>
       <SideNav docs={docs} currentlyOpenedSlug={slug} />
       <div className={styles.pageLayout}>
-        <div className={styles.mainLayout}>
+        <main className={styles.mainLayout}>
           <div className={styles.titleContainer}>
             <img
               alt={"form rider brand"}
@@ -60,7 +60,11 @@ function Docs({ data }) {
               {docsToBeShown.content}
             </Reactmarkdown>
           </div>
-        </div>
+          <div>
+          {/* create a dynamic link to git hub pages https://github/azfazf/slug */}
+            Edit this page and icon here, all is underlined, change icon color
+          </div>
+        </main>
       </div>
     </div>
   );

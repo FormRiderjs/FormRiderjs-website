@@ -79,8 +79,8 @@ Form Rider can be used in single page app environments and also other environmen
   <br/>
 
 
-  6. A nice message should now apprear in the console notifying of the successful setup
-  7. Once FormRider setup is done, go next : [understanding configurations and main concepts](http://localhost:3000/docs/understanding-configurations-and-main-concepts)
+  5. A nice message should now apprear in the console notifying of the successful setup
+  6. Once FormRider setup is done, go next : [understanding configurations and main concepts](http://localhost:3000/docs/understanding-configurations-and-main-concepts)
 
 
 <br/>
