@@ -34,3 +34,17 @@
         text-decoration: underline;
     }
 }
+
+// edit page banner ========================
+.editPageContainer {}
+
+.editPage {
+    display: flex;
+    align-items: center;
+    color: $blueViolet;
+}
+
+.editPageIcon {
+    width: 20px;
+    margin-left: 5px;
+}

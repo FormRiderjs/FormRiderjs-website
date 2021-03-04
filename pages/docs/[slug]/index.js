@@ -60,9 +60,9 @@ function Docs({ data }) {
               {docsToBeShown.content}
             </Reactmarkdown>
           </div>
-          <div>
+          <div className={styles.editPageContainer}>
           {/* create a dynamic link to git hub pages https://github/azfazf/slug */}
-            Edit this page and icon here, all is underlined, change icon color
+            <a className={styles.editPage} href={"https://github.com/FormRiderjs/FormRiderjs-website/blob/main/content/"+`${slug}`+".md"} target="_blank" ><div>Edit this page</div><img className={styles.editPageIcon} alt="Form rider page edit on github" src={"/edit.svg"}></img></a>
           </div>
         </main>
       </div>

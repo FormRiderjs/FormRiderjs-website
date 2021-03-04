@@ -27,7 +27,7 @@ export default function Header() {
               Embedded Notifications
             </div>
           </Link> */}
-          <Link href={"/install"}>
+          <Link href={"/docs/installation"}>
           <div
               className={styles.headerButton + " " + styles.installLink}
             >
@@ -36,7 +36,7 @@ export default function Header() {
           </Link>
           <div className={styles.version}>v1.0.0-Beta</div>
           <div className={styles.headerGithubIcon}>
-            <a href="https://github.com/formRiderjs/formRiderjs">
+            <a href="https://github.com/formRiderjs/formRiderjs" target="_blank">
               <img
                 className={styles.headerIcon}
                 src="/github.svg"
@@ -45,7 +45,7 @@ export default function Header() {
             </a>
           </div>
           <div>
-            <a href="https://ilovesemicolons.io">
+            <a href="https://ilovesemicolons.io" target="_blank">
               <img
                 className={styles.headerIcon}
                 src="/slack.svg"
