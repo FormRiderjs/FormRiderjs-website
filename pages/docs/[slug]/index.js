@@ -1,8 +1,13 @@
 import matter from "gray-matter";
-import Reactmarkdown from "react-markdown";
 import SideNav from "../../../components/sideNav/Sidenav";
+import Reactmarkdown from "react-markdown";
 import { useRouter } from "next/router";
 import styles from "../../../pages/docs.module.scss";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { atomOneDark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+
+
+
 
 function Docs({ data }) {
   //extracting real data from data using gray-matter package
@@ -18,24 +23,48 @@ function Docs({ data }) {
   const router = useRouter();
   const { slug } = router.query;
 
-  let wantedData;
+  let docsToBeShown;
   realData.forEach((element) => {
     if (element.data.slug === slug) {
-      wantedData = element;
+      docsToBeShown = element;
     }
   });
 
-  const docToBeShown = wantedData;
+
+
+  const renderers = {
+    code: ({language, value}) => {
+      return <SyntaxHighlighter style={atomOneDark} language={language} children={value} />
+    }
+  }
+
+
+
 
   return (
     <div>
       <SideNav docs={docs} currentlyOpenedSlug={slug} />
-      <div className={styles.docsPageLayout}>
-        <div className={styles.docsMainLayout}>
-          <Reactmarkdown escapeHtml={false}>
-            {docToBeShown.content}
-          </Reactmarkdown>
-        </div>
+      <div className={styles.pageLayout}>
+        <main className={styles.mainLayout}>
+          <div className={styles.titleContainer}>
+            <img
+              alt={"form rider brand"}
+              src={"/brand.png"}
+              className={styles.brand}
+            />
+            <h1 className={styles.title}>{docsToBeShown.data.title}</h1>
+          </div>
+
+          <div className={styles.content}>
+            <Reactmarkdown escapeHtml={false} renderers={renderers}>
+              {docsToBeShown.content}
+            </Reactmarkdown>
+          </div>
+          <div className={styles.editPageContainer}>
+          {/* create a dynamic link to git hub pages https://github/azfazf/slug */}
+            <a className={styles.editPage} href={"https://github.com/FormRiderjs/FormRiderjs-website/blob/main/content/"+`${slug}`+".md"} target="_blank" ><div>Edit this page</div><img className={styles.editPageIcon} alt="Form rider page edit on github" src={"/edit.svg"}></img></a>
+          </div>
+        </main>
       </div>
     </div>
   );

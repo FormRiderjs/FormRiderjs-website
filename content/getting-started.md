@@ -1,16 +1,21 @@
 ---
 
 slug : getting-started
-title : getting started
+title : Getting started
 description : getting started docs
+editThisPage : https://github.com/FormRiderjs/FormRiderjs-website/tree/main/content
 order : 1
 ---
+### Prerequisites
+These docs assume that you are already familiar with HTML, CSS, JavaScript, and JSON structures.
 
-# h1
+<br/>
 
-## h2
+### Discussion
+Join FormRider [Slack channel](https://formriderjs.slack.com/) and let’s discuss about any new ideas you might have, or some help you might
+need.
 
-### h3
+<br/>
 
-this is getting started page
-<h1>this is only testing</h1>
+### Issues
+An issue is there ?, describe it on [Github issues](https://github.com/FormRiderjs/FormRiderjs/issues) page, or the FormRider slack page in issues section.

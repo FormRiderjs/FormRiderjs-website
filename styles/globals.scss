@@ -1,12 +1,13 @@
 @import "./colors.scss";
+@import "./fontStyles.scss";
 html,
 body {
     padding-top: 27px;
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: $whiteBright;
     //These combined with the footer will keep it at the bottom of any page
-    min-height: 100vh;
     position: relative;
+    min-height: 100vh;
 }
 
 a {
@@ -45,4 +46,27 @@ textarea {
 
 .theMotherOfAllContainers {
     padding-bottom: 200px;
+}
+
+//content styles==============================================================
+pre {
+    width: 800px;
+    margin: 5px auto;
+    font-size: $fontSizeSmall;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.aaa {
+    color: red;
+}
+
+hr {
+    color: $blackBright;
+    background-color: $blackBright;
+    opacity: 0.5;
+    height: 2px;
 }

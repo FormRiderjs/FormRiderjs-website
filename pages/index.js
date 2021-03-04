@@ -1,5 +1,5 @@
 import Link from "next/Link"
-import LayoutHomePage from "../components/layoutHomePage/LayoutHomePage";
+import LayoutStandard from "../components/layoutStandard/LayoutStandard";
 import SingleWhy from "../components/singleWhy/SingleWhy";
 import Example1Form from "../components/example1Form/Example1Form";
 import styles from "./index.module.scss";
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div>
               <div className={styles.topBannerButtonsContainer}>
-                <Link href={"/docs"} ><div className={styles.topBannerButton}>Get Started</div></Link>
+                <Link href={"/docs/introduction"} ><div className={styles.topBannerButton}>Get Started</div></Link>
                 <div className={styles.topBannerButton}>Download</div>
               </div>
             </div>
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </div>
 
-      <LayoutHomePage>
+      <LayoutStandard>
         {/* WHY USING ============================================================ */}
         <div className={styles.whyUsingTitle}>Why using FormRirder.js</div>
         <div className={styles.whyRowContainer}>
@@ -98,7 +98,7 @@ export default function Home() {
           <div className={styles.example1RightContainer}>
           <div className={styles.example1TextAreaContainer}>
             <div className={styles.example1TextArea}>
-            <code className={styles.ee}>
+            <code className={styles.code}>
             <span className={styles.ponctuation}>{"{"}</span><br/>
 
             <span/>  <span className={styles.propertyKey}>"notifications"</span>: <span className={styles.ponctuation}>[{"{"}</span><br/>
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </LayoutHomePage>
+      </LayoutStandard>
     </div>
   );
 }

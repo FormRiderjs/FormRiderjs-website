@@ -1,12 +1,50 @@
 @import "../styles/colors.scss";
 @import "../styles/fontStyles.scss";
-.docsPageLayout {
-    margin-left: 270px;
+.pageLayout {
+    margin-left: 200px;
+    padding-top: 40px;
 }
 
-.docsMainLayout {
-    max-width: 1000px;
+.mainLayout {
+    max-width: 900px;
     margin: auto;
     padding-top: 20px;
     color: $blackBright;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.brand {
+    width: 25px;
+}
+
+//=========================
+.content {
+    line-height: 1.6;
+    a {
+        color: $blueViolet;
+        text-decoration: underline;
+    }
+}
+
+// edit page banner ========================
+.editPageContainer {}
+
+.editPage {
+    display: flex;
+    align-items: center;
+    color: $blueViolet;
+}
+
+.editPageIcon {
+    width: 20px;
+    margin-left: 5px;
 }
