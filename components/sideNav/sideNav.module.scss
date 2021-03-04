@@ -5,17 +5,35 @@
     top: 54px;
     left: 0;
     height: 100%;
-    width: 270px;
+    max-width: 300px;
     background-color: $whiteNormal;
+    border-right: 1px solid $whiteDark;
     overflow: auto;
+    //hiding scrollbar
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+     ::selection {
+        color: none;
+        background: none;
+    }
+    /* For Mozilla Firefox */
+     ::-moz-selection {
+        color: none;
+        background: none;
+    }
 }
 
 .sideNav {
-    padding: 20px 0;
+    padding: 20px 0 150px;
 }
 
 .title {
-    padding: 10px 10px;
+    padding: 10px;
     color: $blackNoraml;
     // background-color: $whiteNormal;
     transition: background-color 200ms;
@@ -30,9 +48,78 @@
     }
 }
 
+//added when title is opened
 .currentlyOpenedDoc {
     background-color: $whiteBright;
     color: $blueBright;
     border-left: 5px solid $orange;
     padding: 10px 5px;
 }
+
+//subtitle=============================================================
+.titleWithSubTitles {
+    color: $blackNoraml;
+    cursor: pointer;
+}
+
+.supTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: $blackNoraml;
+    // background-color: $whiteNormal;
+    transition: background-color 200ms;
+    -webkit-transition: background-color 200ms;
+    -moz-transition: background-color 200ms;
+    -ms-transition: background-color 200ms;
+    -o-transition: background-color 200ms;
+    cursor: pointer;
+    &:hover {
+        color: $blueBright;
+        background-color: $whiteBright;
+    }
+}
+
+.subTitleContainer {
+    display: none;
+}
+
+.subTitle {
+    padding: 10px 20px;
+    color: $blackNoraml;
+    // background-color: $whiteNormal;
+    transition: background-color 200ms;
+    -webkit-transition: background-color 200ms;
+    -moz-transition: background-color 200ms;
+    -ms-transition: background-color 200ms;
+    -o-transition: background-color 200ms;
+    cursor: pointer;
+    &:hover {
+        color: $blueBright;
+        background-color: $whiteBright;
+    }
+}
+
+//added when the substitle is opened
+.currentlyOpenedSubDoc {
+    background-color: $whiteBright;
+    color: $blueBright;
+    border-left: 5px solid $orange;
+    padding: 10px 15px;
+}
+
+//=======================================================================
+.listArrowUnRotated {
+    width: 13px;
+}
+
+//added when the section is opened
+.listArrowRotated {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+//=====================+++++++++++++++++++++++++++++++++++++++++++++++++++++++
