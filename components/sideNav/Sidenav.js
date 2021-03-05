@@ -51,8 +51,10 @@ function SideNav(props) {
     let listArrow = listArrowRef.current;
     console.log(listArrow);
     validatorsSectionOpened
-      ? (validatorsContainer.style.display = "block", listArrow.classList.add(`${styles.listArrowRotated}`))
-      : (validatorsContainer.style.display = "none", listArrow.classList.remove(`${styles.listArrowRotated}`));
+      ? ((validatorsContainer.style.display = "block"),
+        listArrow.classList.add(`${styles.listArrowRotated}`))
+      : ((validatorsContainer.style.display = "none"),
+        listArrow.classList.remove(`${styles.listArrowRotated}`));
     setOpen(!validatorsSectionOpened);
   }
 
@@ -61,17 +63,38 @@ function SideNav(props) {
       <nav ref={sideNavRef} className={styles.sideNav}>
         <Link href={`/docs/introduction`}>
           <div idslug={"introduction"} className={styles.title}>
-            Introduction
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/introduction.svg"}
+                alt={"introduction to Form Rirder js"}
+              />
+              <div>Introduction</div>
+            </div>
           </div>
         </Link>
         <Link href={`/docs/installation`}>
           <div idslug={"installation"} className={styles.title}>
-            Installation
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/download.svg"}
+                alt={"introduction to Form Rirder js"}
+              />
+              <div>Installation</div>
+            </div>
           </div>
         </Link>
         <Link href={`/docs/getting-started`}>
           <div idslug={"getting-started"} className={styles.title}>
-            Getting Started
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/gettingStarted.svg"}
+                alt={"getting started in Form rider js documentation"}
+              />
+              <div>Getting started</div>
+            </div>
           </div>
         </Link>
 
@@ -80,7 +103,14 @@ function SideNav(props) {
             idslug={"understanding-configurations-and-main-concepts"}
             className={styles.title}
           >
-            Understanding configurations and main concepts
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/Settings.svg"}
+                alt={"getting started in Form rider js documentation"}
+              />
+              <div>Understanding configurations and main concepts</div>
+            </div>
           </div>
         </Link>
 
@@ -88,7 +118,16 @@ function SideNav(props) {
 
         <div className={styles.titleWithSubTitles}>
           <div onClick={opneSection} className={styles.supTitleContainer}>
-            Validators and functionalities
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/validatorsAndFunctionalities.svg"}
+                alt={
+                  "validators and functionalities documentation form rider js"
+                }
+              />
+              <div> Validators and functionalities</div>
+            </div>
             <img
               ref={listArrowRef}
               className={styles.listArrowUnRotated}
@@ -172,12 +211,26 @@ function SideNav(props) {
         </div>
         <Link href={`/docs/notifications`}>
           <div idslug={"notifications"} className={styles.title}>
-            notifications
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/notification.svg"}
+                alt={"how to use notifications in form rider js"}
+              />
+              <div>Notifications</div>
+            </div>
           </div>
         </Link>
         <Link href={`/docs/understanding-error-messages`}>
           <div idslug={"understanding-error-messages"} className={styles.title}>
-            Understanding error messages
+            <div className={styles.titleContainer}>
+              <img
+                className={styles.titleIcon}
+                src={"/errors.svg"}
+                alt={"Form rider js error documentations js"}
+              />
+              <div>Understanding error messages</div>
+            </div>
           </div>
         </Link>
       </nav>

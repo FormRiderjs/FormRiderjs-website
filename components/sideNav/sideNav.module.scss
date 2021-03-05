@@ -32,6 +32,10 @@
     padding: 20px 0 150px;
 }
 
+.titleContainer {
+    display: flex;
+}
+
 .title {
     padding: 10px;
     color: $blackNoraml;
@@ -46,6 +50,11 @@
         color: $blueBright;
         background-color: $whiteBright;
     }
+}
+
+.titleIcon {
+    width: 15px;
+    margin-right: 10px;
 }
 
 //added when title is opened
