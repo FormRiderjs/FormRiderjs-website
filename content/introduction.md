@@ -3,7 +3,6 @@
 slug : introduction
 title : Introduction
 description : introduction docs
-order : 0
 
 ---
 

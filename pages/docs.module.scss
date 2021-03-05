@@ -15,7 +15,7 @@
 .titleContainer {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -29,6 +29,7 @@
 //=========================
 .content {
     line-height: 1.6;
+    margin-top: 15px;
     a {
         color: $blueViolet;
         text-decoration: underline;
@@ -39,6 +40,7 @@
 .editPageContainer {}
 
 .editPage {
+    margin-top: 30px;
     display: flex;
     align-items: center;
     color: $blueViolet;
