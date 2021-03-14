@@ -58,22 +58,24 @@ function Docs({ data }) {
               {docsToBeShown.content}
             </Reactmarkdown>
           </div>
-          <a
-            className={styles.editPage}
-            href={
-              "https://github.com/FormRiderjs/FormRiderjs-website/blob/main/content/" +
-              `${slug}` +
-              ".md"
-            }
-            target="_blank"
-          >
-            <div>Edit this page</div>
-            <img
-              className={styles.editPageIcon}
-              alt="Form rider page edit on github"
-              src={"/edit.svg"}
-            ></img>
-          </a>
+          <div className={styles.editPageContainer}>
+            <a
+              className={styles.editPage}
+              href={
+                "https://github.com/FormRiderjs/FormRiderjs-website/blob/main/content/" +
+                `${slug}` +
+                ".md"
+              }
+              target="_blank"
+            >
+              <div>Edit this page</div>
+              <img
+                className={styles.editPageIcon}
+                alt="Form rider page edit on github"
+                src={"/edit.svg"}
+              ></img>
+            </a>
+          </div>
         </main>
       </div>
     </div>

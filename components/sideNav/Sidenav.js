@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/Link";
 import styles from "./sideNav.module.scss";
 
-//TODO validators and functionalities button fix
-//TODO validators and functionalities icon rotate
 
 function SideNav(props) {
   const sideNavRef = useRef();
@@ -64,11 +62,6 @@ function SideNav(props) {
         <Link href={`/docs/introduction`}>
           <div idslug={"introduction"} className={styles.title}>
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/introduction.svg"}
-                alt={"introduction to Form Rirder js"}
-              />
               <div>Introduction</div>
             </div>
           </div>
@@ -76,11 +69,6 @@ function SideNav(props) {
         <Link href={`/docs/installation`}>
           <div idslug={"installation"} className={styles.title}>
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/download.svg"}
-                alt={"introduction to Form Rirder js"}
-              />
               <div>Installation</div>
             </div>
           </div>
@@ -88,11 +76,6 @@ function SideNav(props) {
         <Link href={`/docs/getting-started`}>
           <div idslug={"getting-started"} className={styles.title}>
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/gettingStarted.svg"}
-                alt={"getting started in Form rider js documentation"}
-              />
               <div>Getting started</div>
             </div>
           </div>
@@ -104,11 +87,6 @@ function SideNav(props) {
             className={styles.title}
           >
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/Settings.svg"}
-                alt={"getting started in Form rider js documentation"}
-              />
               <div>Understanding configurations and main concepts</div>
             </div>
           </div>
@@ -119,13 +97,6 @@ function SideNav(props) {
         <div className={styles.titleWithSubTitles}>
           <div onClick={opneSection} className={styles.supTitleContainer}>
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/validatorsAndFunctionalities.svg"}
-                alt={
-                  "validators and functionalities documentation form rider js"
-                }
-              />
               <div> Validators and functionalities</div>
             </div>
             <img
@@ -207,16 +178,28 @@ function SideNav(props) {
                 regexTest
               </div>
             </Link>
+            <Link href="/docs/checkboxRequired">
+              <div idslug={"checkboxRequired"} className={styles.subTitle}>
+                checkboxRequired
+              </div>
+            </Link>
+            <Link href="/docs/radioRequired">
+              <div idslug={"radioRequired"} className={styles.subTitle}>
+                radioRequired
+              </div>
+            </Link>
+            <Link href="/docs/conditionalRequired">
+              <div idslug={"conditionalRequired"} className={styles.subTitle}>
+                conditionalRequired
+              </div>
+            </Link>
           </div>
         </div>
+
+        {/* ====================================================================================== */}
         <Link href={`/docs/notifications`}>
           <div idslug={"notifications"} className={styles.title}>
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/notification.svg"}
-                alt={"how to use notifications in form rider js"}
-              />
               <div>Notifications</div>
             </div>
           </div>
@@ -224,11 +207,6 @@ function SideNav(props) {
         <Link href={`/docs/understanding-error-messages`}>
           <div idslug={"understanding-error-messages"} className={styles.title}>
             <div className={styles.titleContainer}>
-              <img
-                className={styles.titleIcon}
-                src={"/errors.svg"}
-                alt={"Form rider js error documentations js"}
-              />
               <div>Understanding error messages</div>
             </div>
           </div>

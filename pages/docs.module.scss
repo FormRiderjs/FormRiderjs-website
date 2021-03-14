@@ -37,7 +37,9 @@
 }
 
 // edit page banner ========================
-.editPageContainer {}
+.editPageContainer {
+    display: inline-block;
+}
 
 .editPage {
     margin-top: 30px;

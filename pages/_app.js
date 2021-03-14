@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     <Meta />
     <div className={"theMotherOfAllContainers"}>
       <Header />
-      {/* <FundingBanner /> */}
+      <FundingBanner />
       <Component {...pageProps} />
       <Footer />
     </div>
