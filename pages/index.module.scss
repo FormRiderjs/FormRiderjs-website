@@ -32,7 +32,8 @@
 .topBannerButton {
     display: inline-block;
     font-size: $fontSizeMedium;
-    padding: 4px 30px;
+    padding: 2.5px 28.5px;
+    border: 3px solid;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -43,10 +44,22 @@
         background-color: $green;
         color: $whiteBright;
         margin-right: 30px;
+        &:hover {
+            background-color: $blueViolet;
+        }
     }
     &.topBannerButton:last-child {
         background-color: $whiteBright;
+        color: $blackDark;
+        &:hover {
+            background-color: $blueViolet;
+        }
     }
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
 }
 
 // why using ======================================================================================

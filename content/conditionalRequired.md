@@ -15,8 +15,8 @@ ___"inCommonCorrespondence"___ object syntax
 {
     "inCommonCorrespondence": [
         {
-            "name": <value of string type>,
-            "neededPointsToValidate": <value of int type>
+            "name": <string value>,
+            "neededPointsToValidate": <int value>
         }
     ]    
 }
@@ -27,8 +27,8 @@ ___"inCommon"___ object syntax
   ```JSON
   {
       "inCommon" : {
-          "name" : <value of string type>,
-          "pointsGiven" : <value of int type>
+          "name" : <string value>,
+          "pointsGiven" : <int value>
       }
   }
   ```
@@ -60,16 +60,16 @@ ___"inCommon"___ object syntax
     {
         "inCommonCorrespondence": [
             {
-                "name": <value of string type>,
-                "neededPointsToValidate": <value of int type>
+                "name": <string value>,
+                "neededPointsToValidate": <int value>
             },
             {
                 "name": <another name>,
-                "neededPointsToValidate": <value of int type>
+                "neededPointsToValidate": <int value>
             }
             {
                 "name": <and also another name if we want>,
-                "neededPointsToValidate": <value of int type>
+                "neededPointsToValidate": <int value>
             }
             //etc...
         ]    
@@ -93,8 +93,8 @@ ___"inCommon"___ object syntax
     "required" : [
         {
             "inCommon" : {
-                "name" : <value of string type>,
-                "pointsGiven" : <value of int type>
+                "name" : <string value>,
+                "pointsGiven" : <int value>
             }
         },
         "a custom error message"
@@ -266,8 +266,8 @@ so in this case you should implement inCommon validation because there is one co
 {
     "inCommonCorrespondence": [
         {
-            "name": <value of string type>,
-            "neededPointsToValidate": <value of int type>
+            "name": <string value>,
+            "neededPointsToValidate": <int value>
         }
     ]    
 }
