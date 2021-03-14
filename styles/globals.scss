@@ -51,7 +51,7 @@ textarea {
 //content styles==============================================================
 pre {
     width: 800px;
-    margin: 5px auto;
+    margin: 20px auto;
     font-size: $fontSizeSmall;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -60,13 +60,12 @@ pre {
     -o-border-radius: 5px;
 }
 
-.aaa {
-    color: red;
-}
-
 hr {
-    color: $blackBright;
-    background-color: $blackBright;
-    opacity: 0.5;
-    height: 2px;
+    color: rgb(150, 149, 149);
+    background-color: rgb(150, 149, 149);
+    height: 3px;
+    width: 800px;
+    margin: 20px auto;
+    outline: none;
+    border: none;
 }

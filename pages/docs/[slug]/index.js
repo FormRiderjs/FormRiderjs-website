@@ -4,10 +4,7 @@ import Reactmarkdown from "react-markdown";
 import { useRouter } from "next/router";
 import styles from "../../../pages/docs.module.scss";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-
-
-
+import { atomOneDark } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 
 function Docs({ data }) {
   //extracting real data from data using gray-matter package
@@ -30,16 +27,17 @@ function Docs({ data }) {
     }
   });
 
-
-
   const renderers = {
-    code: ({language, value}) => {
-      return <SyntaxHighlighter style={atomOneDark} language={language} children={value} />
-    }
-  }
-
-
-
+    code: ({ language, value }) => {
+      return (
+        <SyntaxHighlighter
+          style={atomOneDark}
+          language={language}
+          children={value}
+        />
+      );
+    },
+  };
 
   return (
     <div>
@@ -54,15 +52,29 @@ function Docs({ data }) {
             />
             <h1 className={styles.title}>{docsToBeShown.data.title}</h1>
           </div>
-
+          <h3>{docsToBeShown.data.titleExplained}</h3>
           <div className={styles.content}>
             <Reactmarkdown escapeHtml={false} renderers={renderers}>
               {docsToBeShown.content}
             </Reactmarkdown>
           </div>
           <div className={styles.editPageContainer}>
-          {/* create a dynamic link to git hub pages https://github/azfazf/slug */}
-            <a className={styles.editPage} href={"https://github.com/FormRiderjs/FormRiderjs-website/blob/main/content/"+`${slug}`+".md"} target="_blank" ><div>Edit this page</div><img className={styles.editPageIcon} alt="Form rider page edit on github" src={"/edit.svg"}></img></a>
+            <a
+              className={styles.editPage}
+              href={
+                "https://github.com/FormRiderjs/FormRiderjs-website/blob/main/content/" +
+                `${slug}` +
+                ".md"
+              }
+              target="_blank"
+            >
+              <div>Edit this page</div>
+              <img
+                className={styles.editPageIcon}
+                alt="Form rider page edit on github"
+                src={"/edit.svg"}
+              ></img>
+            </a>
           </div>
         </main>
       </div>

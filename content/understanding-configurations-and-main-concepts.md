@@ -3,7 +3,7 @@
 slug : understanding-configurations-and-main-concepts
 title : Understanding configurations and main concepts
 description : this si the notifications page
-order : 3
+
 ---
 
 Foreach input to validate you should add a custom HTML attribute _**data-name**_ with a unique value , you should also add a custom HTML attribute _**data-frform**_ with a unique value to the parent form.
@@ -18,8 +18,6 @@ FormRider will then check for every form and input who has these custom attribut
 
 ### Explaining configurations and main concepts : 
 **formRiderJsonConfig.json** is where put FormRider configs, here you can find properties explication under each one. 
-
-<br/>
 
 ```JSON
 {

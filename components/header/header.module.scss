@@ -48,14 +48,35 @@
 
 .docsLink {
     border-left-color: $blueBright;
+    &:hover {
+        background-color: $blueBright;
+        color: $whiteExtra;
+        transition: background-color 300ms, color 300ms;
+        -webkit-transition: background-color 300ms, color 300ms;
+        -moz-transition: background-color 300ms, color 300ms;
+        -ms-transition: background-color 300ms, color 300ms;
+        -o-transition: background-color 300ms, color 300ms;
+    }
 }
 
 .notificationsLink {
     border-left-color: $green;
+    &:hover {
+        background-color: $green;
+    }
 }
 
 .installLink {
     border-left-color: $green;
+    &:hover {
+        background-color: $green;
+        color: $whiteExtra;
+        transition: background-color 300ms, color 300ms;
+        -webkit-transition: background-color 300ms, color 300ms;
+        -moz-transition: background-color 300ms, color 300ms;
+        -ms-transition: background-color 300ms, color 300ms;
+        -o-transition: background-color 300ms, color 300ms;
+    }
 }
 
 .version {

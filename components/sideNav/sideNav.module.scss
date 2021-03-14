@@ -32,6 +32,10 @@
     padding: 20px 0 150px;
 }
 
+.titleContainer {
+    display: flex;
+}
+
 .title {
     padding: 10px;
     color: $blackNoraml;
@@ -46,6 +50,11 @@
         color: $blueBright;
         background-color: $whiteBright;
     }
+}
+
+.titleIcon {
+    width: 15px;
+    margin-right: 10px;
 }
 
 //added when title is opened
@@ -85,7 +94,8 @@
 }
 
 .subTitle {
-    padding: 10px 20px;
+    // padding: 10px 20px;
+    padding: 10px 20px 10px 30px;
     color: $blackNoraml;
     // background-color: $whiteNormal;
     transition: background-color 200ms;
@@ -105,7 +115,8 @@
     background-color: $whiteBright;
     color: $blueBright;
     border-left: 5px solid $orange;
-    padding: 10px 15px;
+    // padding: 10px 15px;
+    padding: 10px 20px 10px 25px;
 }
 
 //=======================================================================

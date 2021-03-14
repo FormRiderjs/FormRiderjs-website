@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/Link";
 import styles from "./sideNav.module.scss";
 
-//TODO validators and functionalities button fix
-//TODO validators and functionalities icon rotate
 
 function SideNav(props) {
   const sideNavRef = useRef();
@@ -51,8 +49,10 @@ function SideNav(props) {
     let listArrow = listArrowRef.current;
     console.log(listArrow);
     validatorsSectionOpened
-      ? (validatorsContainer.style.display = "block", listArrow.classList.add(`${styles.listArrowRotated}`))
-      : (validatorsContainer.style.display = "none", listArrow.classList.remove(`${styles.listArrowRotated}`));
+      ? ((validatorsContainer.style.display = "block"),
+        listArrow.classList.add(`${styles.listArrowRotated}`))
+      : ((validatorsContainer.style.display = "none"),
+        listArrow.classList.remove(`${styles.listArrowRotated}`));
     setOpen(!validatorsSectionOpened);
   }
 
@@ -61,17 +61,23 @@ function SideNav(props) {
       <nav ref={sideNavRef} className={styles.sideNav}>
         <Link href={`/docs/introduction`}>
           <div idslug={"introduction"} className={styles.title}>
-            Introduction
+            <div className={styles.titleContainer}>
+              <div>Introduction</div>
+            </div>
           </div>
         </Link>
         <Link href={`/docs/installation`}>
           <div idslug={"installation"} className={styles.title}>
-            Installation
+            <div className={styles.titleContainer}>
+              <div>Installation</div>
+            </div>
           </div>
         </Link>
         <Link href={`/docs/getting-started`}>
           <div idslug={"getting-started"} className={styles.title}>
-            Getting Started
+            <div className={styles.titleContainer}>
+              <div>Getting started</div>
+            </div>
           </div>
         </Link>
 
@@ -80,7 +86,9 @@ function SideNav(props) {
             idslug={"understanding-configurations-and-main-concepts"}
             className={styles.title}
           >
-            Understanding configurations and main concepts
+            <div className={styles.titleContainer}>
+              <div>Understanding configurations and main concepts</div>
+            </div>
           </div>
         </Link>
 
@@ -88,7 +96,9 @@ function SideNav(props) {
 
         <div className={styles.titleWithSubTitles}>
           <div onClick={opneSection} className={styles.supTitleContainer}>
-            Validators and functionalities
+            <div className={styles.titleContainer}>
+              <div> Validators and functionalities</div>
+            </div>
             <img
               ref={listArrowRef}
               className={styles.listArrowUnRotated}
@@ -168,16 +178,37 @@ function SideNav(props) {
                 regexTest
               </div>
             </Link>
+            <Link href="/docs/checkboxRequired">
+              <div idslug={"checkboxRequired"} className={styles.subTitle}>
+                checkboxRequired
+              </div>
+            </Link>
+            <Link href="/docs/radioRequired">
+              <div idslug={"radioRequired"} className={styles.subTitle}>
+                radioRequired
+              </div>
+            </Link>
+            <Link href="/docs/conditionalRequired">
+              <div idslug={"conditionalRequired"} className={styles.subTitle}>
+                conditionalRequired
+              </div>
+            </Link>
           </div>
         </div>
+
+        {/* ====================================================================================== */}
         <Link href={`/docs/notifications`}>
           <div idslug={"notifications"} className={styles.title}>
-            notifications
+            <div className={styles.titleContainer}>
+              <div>Notifications</div>
+            </div>
           </div>
         </Link>
         <Link href={`/docs/understanding-error-messages`}>
           <div idslug={"understanding-error-messages"} className={styles.title}>
-            Understanding error messages
+            <div className={styles.titleContainer}>
+              <div>Understanding error messages</div>
+            </div>
           </div>
         </Link>
       </nav>

@@ -3,8 +3,6 @@
 slug : getting-started
 title : Getting started
 description : getting started docs
-editThisPage : https://github.com/FormRiderjs/FormRiderjs-website/tree/main/content
-order : 1
 ---
 ### Prerequisites
 These docs assume that you are already familiar with HTML, CSS, JavaScript, and JSON structures.
