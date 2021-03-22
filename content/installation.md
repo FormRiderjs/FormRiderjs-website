@@ -23,11 +23,7 @@ Form Rider can be used in single page app environments and also other environmen
 4. A nice message should now apprear in the console notifying of the successful setup
 5. Once FormRider setup is done, go next : [understanding configurations and main concepts](http://localhost:3000/docs/understanding-configurations-and-main-concepts)
 
-<br/>
-
 ---
-
-<br/>
 
 * ### As a node_module - npm
   1. first, install FormRiderjs
@@ -37,21 +33,23 @@ Form Rider can be used in single page app environments and also other environmen
 
   2. import it
   ```javascript 
-  import {formRider} from "formriderjs" 
+  import { FormRiderjs } from "formriderjs";
   ```  
   
   3. Form Rider should be loaded after the react/angular/vue component is mounted. e.g in a react environmenet, it works using class components or functional components as following : 
 
 
   ```javascript
+  // example of FormRiderjs() in a class component
   componentDidMount() {
-    new formRider();
+    new FormRiderjs();
   }
   ```
 
   ```javascript
+  //example of FormRiderjs() in a functional component
   useEffect() {
-    new formRider();
+    new FormRiderjs();
   }
   ```
 
@@ -61,7 +59,7 @@ Form Rider can be used in single page app environments and also other environmen
   ```javascript
   validating(){
     window.setTimeout(()=> {
-      let status = formrider.getValidationStatus();
+      let status = FormRiderjs.getValidationStatus();
       if(status === true){
         // here you should put your submit procedure
       }
